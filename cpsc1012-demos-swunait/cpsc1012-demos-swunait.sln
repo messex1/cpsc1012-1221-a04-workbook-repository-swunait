@@ -5,7 +5,9 @@ VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleApp", "SimpleApp\SimpleApp.csproj", "{BCC64DDB-DED6-44FC-A46B-4CF654F8FC96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoLinesApp", "TwoLinesApp\TwoLinesApp.csproj", "{B60C8CDD-61C2-4773-B85D-D61498A62907}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoLinesApp", "TwoLinesApp\TwoLinesApp.csproj", "{B60C8CDD-61C2-4773-B85D-D61498A62907}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSPE_Question01", "SSPE_Question01\SSPE_Question01.csproj", "{0ECBD24F-18CC-4878-B23C-452CBF607C6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B60C8CDD-61C2-4773-B85D-D61498A62907}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B60C8CDD-61C2-4773-B85D-D61498A62907}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B60C8CDD-61C2-4773-B85D-D61498A62907}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ECBD24F-18CC-4878-B23C-452CBF607C6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ECBD24F-18CC-4878-B23C-452CBF607C6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ECBD24F-18CC-4878-B23C-452CBF607C6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ECBD24F-18CC-4878-B23C-452CBF607C6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

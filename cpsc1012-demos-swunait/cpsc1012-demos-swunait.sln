@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSPE_Question03", "SSPE_Que
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSPE_Question04", "SSPE_Question04\SSPE_Question04.csproj", "{A2017FBD-2594-4620-A7BE-89F12472EE26}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSPE_Qustion05", "SSPE_Qustion05\SSPE_Qustion05.csproj", "{15839AC6-412E-4158-B227-14A429103FB2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{A2017FBD-2594-4620-A7BE-89F12472EE26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2017FBD-2594-4620-A7BE-89F12472EE26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2017FBD-2594-4620-A7BE-89F12472EE26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15839AC6-412E-4158-B227-14A429103FB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15839AC6-412E-4158-B227-14A429103FB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15839AC6-412E-4158-B227-14A429103FB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15839AC6-412E-4158-B227-14A429103FB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -28,6 +28,10 @@ length = double.Parse(Console.ReadLine());
 // Compute the area and volume of cylinder
 area = radius * radius * Math.PI;
 volume = area * length;
+// Round the area to 4 decimal place
+area = Math.Round(area, 4);
+// Round the volume to 1 decimal place
+volume = Math.Round(volume, 1);
 
 //Display the computed area and volume of cylinder    
 Console.WriteLine($"The area is {area}");

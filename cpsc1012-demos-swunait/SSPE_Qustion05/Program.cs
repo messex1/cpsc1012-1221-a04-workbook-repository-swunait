@@ -17,7 +17,6 @@
  * */
 // Declare varaibles for inputs (investmentAmount, annualInterestRate, years)
 // and outputs (monthlyInterestRate, futureInvestmentValue)
-using Microsoft.VisualBasic;
 
 double investmentAmount,
         annualInterestRate;

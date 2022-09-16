@@ -1,9 +1,9 @@
-﻿const int minNumber = 1;
-const int maxNumber = 9;
+﻿const int MinNumber = 1;
+const int MaxNumber = 9;
 Random keygen = new Random();
 // Generate two random numbers between 1 and 9
-int number1 = keygen.Next(minNumber, maxNumber + 1);
-int number2 = keygen.Next(minNumber, maxNumber + 1);
+int number1 = keygen.Next(MinNumber, MaxNumber + 1);
+int number2 = keygen.Next(MinNumber, MaxNumber + 1);
 // Show question
 Console.Write($"What is {number1} + {number2} = ? ");
 // Receive answer

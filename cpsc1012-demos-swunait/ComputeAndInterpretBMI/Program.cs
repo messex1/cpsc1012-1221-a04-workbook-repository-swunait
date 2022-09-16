@@ -45,7 +45,7 @@ else if (bmi >= 18.5 && bmi < 25)
 else if (bmi >= 25 && bmi < 30)
 {
     Console.WriteLine("Overweight");
-}s
+}
 else
 {
     Console.WriteLine("Obese");

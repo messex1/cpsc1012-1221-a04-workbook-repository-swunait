@@ -7,7 +7,7 @@
  *  Algorithm:  1) Prompt and read in the customer age
  *              2) Determine and print the admission price based on the customer age
  *              
- *              Test Condition          Price
+ *              Test Condition          Action
  *              --------------          ------
  *              age <= 6                $0.00
  *              age >= 7 and <= 17      $9.80

@@ -33,15 +33,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DMP_Question01", "DMP_Quest
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DMP_Question02", "DMP_Question02\DMP_Question02.csproj", "{E2866D95-22D9-42E5-B99A-0ED60A6324B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharInputDemo", "CharInputDemo\CharInputDemo.csproj", "{E1C3E139-4530-4A83-B0F1-5E5807EC282D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CharInputDemo", "CharInputDemo\CharInputDemo.csproj", "{E1C3E139-4530-4A83-B0F1-5E5807EC282D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormatOutputInColumns", "FormatOutputInColumns\FormatOutputInColumns.csproj", "{5E5054C0-2E21-41BE-B778-59EF89C16C0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormatOutputInColumns", "FormatOutputInColumns\FormatOutputInColumns.csproj", "{5E5054C0-2E21-41BE-B778-59EF89C16C0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DMP_Question03", "DMP_Question03\DMP_Question03.csproj", "{D17E24FE-BBB9-4963-A934-7DC66754206C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DMP_Question03", "DMP_Question03\DMP_Question03.csproj", "{D17E24FE-BBB9-4963-A934-7DC66754206C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DMP_Question04", "DMP_Question04\DMP_Question04.csproj", "{4B7FCCEB-5FAD-44E6-BA3F-7C5C9C194ED4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DMP_Question04", "DMP_Question04\DMP_Question04.csproj", "{4B7FCCEB-5FAD-44E6-BA3F-7C5C9C194ED4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DMP2_SwitchQuestion01", "DMP2_SwitchQuestion01\DMP2_SwitchQuestion01.csproj", "{EEA89F9E-7CA3-4B0C-ACBF-CDA40D4D2656}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DMP2_SwitchQuestion01", "DMP2_SwitchQuestion01\DMP2_SwitchQuestion01.csproj", "{EEA89F9E-7CA3-4B0C-ACBF-CDA40D4D2656}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Analysis", "Analysis\Analysis.csproj", "{375F59F7-D4C6-46DC-936D-CB3AE388F8F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{EEA89F9E-7CA3-4B0C-ACBF-CDA40D4D2656}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEA89F9E-7CA3-4B0C-ACBF-CDA40D4D2656}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEA89F9E-7CA3-4B0C-ACBF-CDA40D4D2656}.Release|Any CPU.Build.0 = Release|Any CPU
+		{375F59F7-D4C6-46DC-936D-CB3AE388F8F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{375F59F7-D4C6-46DC-936D-CB3AE388F8F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{375F59F7-D4C6-46DC-936D-CB3AE388F8F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{375F59F7-D4C6-46DC-936D-CB3AE388F8F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -21,3 +21,9 @@ Console.Write("Enter an integer number: ");
 int n = int.Parse(Console.ReadLine());
 // Divide quoitent repeatly until the quotient is zero. Set quotient to n initially.
 int quotient = n, remainder;
+while (quotient != 0)
+{
+    remainder = quotient % 10;
+    Console.WriteLine(remainder);
+    quotient = quotient / 10;
+}

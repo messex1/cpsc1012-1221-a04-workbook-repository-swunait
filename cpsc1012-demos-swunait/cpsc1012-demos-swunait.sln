@@ -51,13 +51,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LP1_Question01", "LP1_Quest
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LP1_Question03", "LP1_Question03\LP1_Question03.csproj", "{1EEEE7AA-9867-481B-9E30-96F826B14F87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilledRectangle", "FilledRectangle\FilledRectangle.csproj", "{2A710D2E-17B1-40E5-A265-899C638FDB82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilledRectangle", "FilledRectangle\FilledRectangle.csproj", "{2A710D2E-17B1-40E5-A265-899C638FDB82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HollowRectangle", "HollowRectangle\HollowRectangle.csproj", "{0ECDD797-3629-4B3C-BDC9-405DB8C32087}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HollowRectangle", "HollowRectangle\HollowRectangle.csproj", "{0ECDD797-3629-4B3C-BDC9-405DB8C32087}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolllowRectangleWithBorder", "HolllowRectangleWithBorder\HolllowRectangleWithBorder.csproj", "{B9551F8B-80B3-4FF4-897D-EAD3974F3EF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HolllowRectangleWithBorder", "HolllowRectangleWithBorder\HolllowRectangleWithBorder.csproj", "{B9551F8B-80B3-4FF4-897D-EAD3974F3EF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoveableRectangle", "MoveableRectangle\MoveableRectangle.csproj", "{9E1719A3-2B1F-4C37-8D57-830AC50BF7E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoveableRectangle", "MoveableRectangle\MoveableRectangle.csproj", "{9E1719A3-2B1F-4C37-8D57-830AC50BF7E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilledTriangle", "FilledTriangle\FilledTriangle.csproj", "{B3ED953A-D27B-4F0F-AC5B-F8D19176A063}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -177,6 +179,10 @@ Global
 		{9E1719A3-2B1F-4C37-8D57-830AC50BF7E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E1719A3-2B1F-4C37-8D57-830AC50BF7E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E1719A3-2B1F-4C37-8D57-830AC50BF7E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3ED953A-D27B-4F0F-AC5B-F8D19176A063}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3ED953A-D27B-4F0F-AC5B-F8D19176A063}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3ED953A-D27B-4F0F-AC5B-F8D19176A063}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3ED953A-D27B-4F0F-AC5B-F8D19176A063}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

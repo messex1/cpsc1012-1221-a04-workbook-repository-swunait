@@ -23,7 +23,6 @@
  *                            
  * */
 // Display a welcome message
-using System.Diagnostics;
 
 Console.WriteLine("This program determines the admission price based on a customer age.");
 // Prompt and read in the customer age

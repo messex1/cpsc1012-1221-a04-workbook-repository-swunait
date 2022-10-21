@@ -63,7 +63,6 @@ static int PromptForIntegerRange(string promptMessage, int minValue, int maxValu
 }
 
 
-
 static double GetTicketPrice (int age)
 {
     double ticketPrice = 0.00;

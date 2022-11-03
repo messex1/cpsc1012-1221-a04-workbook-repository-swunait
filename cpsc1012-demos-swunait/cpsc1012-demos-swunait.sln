@@ -97,11 +97,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvestmentFutureValue", "In
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arrays", "Arrays", "{9F21B212-2587-47EC-A5D5-66B2C4886BAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PollutionLevelApp", "PollutionLevelApp\PollutionLevelApp.csproj", "{E32FEA9B-E1A3-4E41-8EBB-D51660478BC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PollutionLevelApp", "PollutionLevelApp\PollutionLevelApp.csproj", "{E32FEA9B-E1A3-4E41-8EBB-D51660478BC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AverageScoreApp", "AverageScoreApp\AverageScoreApp.csproj", "{FC71D520-236F-4674-A099-B639077FC945}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AverageScoreApp", "AverageScoreApp\AverageScoreApp.csproj", "{FC71D520-236F-4674-A099-B639077FC945}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bar1App", "Bar1App\Bar1App.csproj", "{AEFDACDE-2768-4145-B934-E26C175CD592}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bar1App", "Bar1App\Bar1App.csproj", "{AEFDACDE-2768-4145-B934-E26C175CD592}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassingArraysToMethods", "PassingArraysToMethods\PassingArraysToMethods.csproj", "{4B4BCF30-0F93-4273-A1EB-1F1B6190F30B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassingArraysToMethodsWarmUp", "PassingArraysToMethodsWarmUp\PassingArraysToMethodsWarmUp.csproj", "{DFF45DB3-0893-438E-8EF1-B7B237C225BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -285,6 +289,14 @@ Global
 		{AEFDACDE-2768-4145-B934-E26C175CD592}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEFDACDE-2768-4145-B934-E26C175CD592}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEFDACDE-2768-4145-B934-E26C175CD592}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B4BCF30-0F93-4273-A1EB-1F1B6190F30B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B4BCF30-0F93-4273-A1EB-1F1B6190F30B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B4BCF30-0F93-4273-A1EB-1F1B6190F30B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B4BCF30-0F93-4273-A1EB-1F1B6190F30B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFF45DB3-0893-438E-8EF1-B7B237C225BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFF45DB3-0893-438E-8EF1-B7B237C225BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFF45DB3-0893-438E-8EF1-B7B237C225BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFF45DB3-0893-438E-8EF1-B7B237C225BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -334,6 +346,8 @@ Global
 		{E32FEA9B-E1A3-4E41-8EBB-D51660478BC7} = {9F21B212-2587-47EC-A5D5-66B2C4886BAC}
 		{FC71D520-236F-4674-A099-B639077FC945} = {9F21B212-2587-47EC-A5D5-66B2C4886BAC}
 		{AEFDACDE-2768-4145-B934-E26C175CD592} = {9F21B212-2587-47EC-A5D5-66B2C4886BAC}
+		{4B4BCF30-0F93-4273-A1EB-1F1B6190F30B} = {9F21B212-2587-47EC-A5D5-66B2C4886BAC}
+		{DFF45DB3-0893-438E-8EF1-B7B237C225BB} = {9F21B212-2587-47EC-A5D5-66B2C4886BAC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {62551D35-A2AF-40A3-9F4B-1F5588F412F4}

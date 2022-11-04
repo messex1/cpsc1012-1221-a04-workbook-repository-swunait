@@ -104,6 +104,19 @@ static int GetMainMenuChoice(int minValue, int maxValue)
     return menuChoice;
 }
 
+static int PromptForIntegerValue(string promptMessage)
+{
+    int integerValue = 0;
+
+    Console.Write(promptMessage);
+    while (!int.TryParse(Console.ReadLine(), out integerValue))
+    {
+        Console.WriteLine("Invalid input value. Please enter an integer value.");
+        Console.Write(promptMessage);
+    }
+    return integerValue;
+}
+
 static void DisplayMainMenu()
 {
     const string MainMenuOptions = @"

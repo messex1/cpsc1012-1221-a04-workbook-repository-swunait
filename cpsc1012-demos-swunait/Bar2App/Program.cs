@@ -42,7 +42,10 @@ barCount = int.Parse(Console.ReadLine());
 values = new double[barCount];
 
 ReadData(values, barCount);
-
+int[] scaledValues = new int[barCount];
+double maxValue = MaxDataValue(values, barCount);
+ScaleValues(values, scaledValues, barCount, maxValue);
+DisplayBarGraph(scaledValues, barCount, maxValue);
 
 
 static void ReadData(double[] data, int numValues)
@@ -50,7 +53,7 @@ static void ReadData(double[] data, int numValues)
     for (int index = 0; index < numValues; index++)
     {
         Console.Write($"Enter value for bar {index + 1}: ");
-        data[index] = int.Parse(Console.ReadLine());
+        data[index] = double.Parse(Console.ReadLine());
     }
 
 }
@@ -105,28 +108,28 @@ static void DisplayBarGraph(int[] scaledData, int numValues, double maxValue)
     //Console.Write("0");
     //Console.WriteLine($"{MaxValue}".PadLeft(MaxValue + 1));
 
-    //for (int index = 0; index <= MaxValue; index++)
-    //{
-    //    if (index % 10 == 0)
-    //    {
-    //        Console.Write("|");
-    //    }
-    //    else
-    //    {
-    //        Console.Write("-");
-    //    }
-    //}
-    //Console.WriteLine();
+    for (int index = 0; index <= MaxValue; index++)
+    {
+        if (index % 10 == 0)
+        {
+            Console.Write("|");
+        }
+        else
+        {
+            Console.Write("-");
+        }
+    }
+    Console.WriteLine();
 
-    //for (int currentRow = 1; currentRow <= barCount; currentRow++)
-    //{
-    //    Console.Write("|");
-    //    for (int index = 0; index < values[currentRow - 1]; index++)
-    //    {
-    //        Console.Write("*");
-    //    }
-    //    Console.WriteLine();
-    //}
+    for (int currentRow = 1; currentRow <= numValues; currentRow++)
+    {
+        Console.Write("|");
+        for (int index = 0; index < scaledData[currentRow - 1]; index++)
+        {
+            Console.Write("*");
+        }
+        Console.WriteLine();
+    }
 
 }
 

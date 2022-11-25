@@ -127,7 +127,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DieApp", "DieApp\DieApp.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RectangleApp", "RectangleApp\RectangleApp.csproj", "{A2B00B82-C70D-4B4C-86CA-7D1D51D05AFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentApp1", "StudentApp1\StudentApp1.csproj", "{10E0DD32-B3CF-4326-9AD5-44A84CEACBB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentApp1", "StudentApp1\StudentApp1.csproj", "{10E0DD32-B3CF-4326-9AD5-44A84CEACBB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnderstandingObjectsWorksheet", "UnderstandingObjectsWorksheet\UnderstandingObjectsWorksheet.csproj", "{AC08B902-AB12-4B3E-9896-97BB3E41EDA4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -359,6 +361,10 @@ Global
 		{10E0DD32-B3CF-4326-9AD5-44A84CEACBB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10E0DD32-B3CF-4326-9AD5-44A84CEACBB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10E0DD32-B3CF-4326-9AD5-44A84CEACBB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC08B902-AB12-4B3E-9896-97BB3E41EDA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC08B902-AB12-4B3E-9896-97BB3E41EDA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC08B902-AB12-4B3E-9896-97BB3E41EDA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC08B902-AB12-4B3E-9896-97BB3E41EDA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -420,6 +426,7 @@ Global
 		{61E024FA-5CAD-4704-A22B-96FBB68D09D5} = {B3EDDBA7-929D-488B-AD6A-F7884DE32BA0}
 		{A2B00B82-C70D-4B4C-86CA-7D1D51D05AFD} = {B3EDDBA7-929D-488B-AD6A-F7884DE32BA0}
 		{10E0DD32-B3CF-4326-9AD5-44A84CEACBB9} = {B3EDDBA7-929D-488B-AD6A-F7884DE32BA0}
+		{AC08B902-AB12-4B3E-9896-97BB3E41EDA4} = {B3EDDBA7-929D-488B-AD6A-F7884DE32BA0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {62551D35-A2AF-40A3-9F4B-1F5588F412F4}
